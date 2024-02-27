@@ -1,0 +1,169 @@
+*{
+    position:-webkit-sticky;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+
+
+}
+body{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    min-width:150vh ;
+    background: linear-gradient(245.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.52%);
+}
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background: transparent;
+   
+}
+
+.logo{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    top: 3px;
+
+}
+
+.navlist{
+    display: flex;
+    top:10px;
+   
+    
+}
+
+.navlist a{
+   color: white; 
+   margin-left: 60px;
+   font-size: 15px;
+   font-weight: 600;
+   border-bottom: 2px solid transparent;
+   transition: all .55s ease;
+
+}
+
+.navlist a:hover{
+    border-bottom: 2px solid white;
+}
+
+#menu-icon{
+    color: white;
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
+.hero{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center ;
+    gap: 2rem;
+}
+section{
+    padding: 0 10%;
+}
+
+.hero-img{
+    position: absolute;
+    right: 200px;
+}
+
+.imggoblin{
+    position: relative;
+    object-fit: cover;
+    width: 1000px;
+    height: 600px;
+  
+}
+.hero-text{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px;
+    margin-right: 0;
+    margin-left: 130px;
+}
+
+.hero-text h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 90px;
+    line-height: 1;
+    margin: 0 0 45px;
+
+}
+.hero-text h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.hero-text h5{
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+    margin-top: 20px;
+}
+
+.hero-text p{
+    margin-top: -30px;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.imgcoclogo{
+    position: absolute;
+    left: 170px;
+    
+    width: 400px;
+    height: 200px;
+  
+    margin-top: 0px;
+    
+    z-index: 900;
+}
+
+.logoheading{
+   position: relative;
+}
+
+section a{
+    color: white;
+    
+}
+
+.ctaa{
+    font-weight: 400;
+    font-size: 20px;
+}
+.ri-youtube-line{
+    color: red;
+    border-radius: 3px;
+    font-size: 25px;
+    top: 1px;
+}
+
+.imgbarb{
+    position: absolute;
+    left: 700px;
+   z-index: -1;
+}
